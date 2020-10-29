@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PDF FIle</title>
     <script type="text/javascript">
+       /*
     function getDocHeight(doc) {
         doc = doc || document;
         // stackoverflow.com/questions/1145850/
@@ -29,11 +30,13 @@
     document.getElementById('ifrm').onload = function() { // Adjust the Id accordingly
         setIframeHeight(this.id);
     }
+    */
     </script>
 </head>
 
 <body>
-    <embed id="ifrm" src="https://shlkchu.github.io/pdf.github.io/test.pdf" width="600px" height="500px" />
+    <a href="https://shlkchu.github.io/pdf.github.io/test.pdf" title="如果看不到檔案請點此連結" target="_blank">如果看不到檔案請點此連結</a>
+    <embed id="ifrm" src="https://shlkchu.github.io/pdf.github.io/test.pdf" width="100%" height="800"/>
     <!-- <iframe id="ifrm" src="test.pdf" type="application/pdf"></iframe> -->
 </body>
 
